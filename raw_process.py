@@ -75,4 +75,4 @@ f107_data = read_f107_data(f107_file_path)
 with open(result_file_path, 'w') as result_file:
     for i, swarm_file in enumerate(swarm_files, start=1):
         process_swarm_file(swarm_file, f107_data, result_file)
-        print(f"Файл {i} ({swarm_file}) обработан")
+        print(f"File {i} ({swarm_file}) processed")
