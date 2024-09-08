@@ -1,3 +1,10 @@
+"""
+Web: https://github.com/BoryMAndy/NeQuick
+
+Author: Boris Matiushin
+"""
+
+
 import os
 import csv
 import datetime as dt
